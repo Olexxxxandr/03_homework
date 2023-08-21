@@ -206,3 +206,4 @@ function create(text) {
 const tom = create("pass_for_Tom");
 
 console.log(tom("pass_for_Tom"));
+console.log(tom("pass_for_tom"));
