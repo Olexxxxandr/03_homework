@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    font-size: 24px;
+    list-style: none;
+}
+
+.container {
+    background-color: blueviolet;
+}
+
+#list {
+    padding-right: 50px;
+    border: 2px solid beige;
+}
+
+.list-item {
+    border: 1px solid beige;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}

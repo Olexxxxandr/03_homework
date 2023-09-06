@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#252626;
+    height: 100vh;
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    background-color: black;
+}
+
+#date {
+    font-size: 50px;
+}
+
+#clock {
+    font-size: 100px;
+}
