@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: cadetblue;
+    transition: 1s;
+}
+
+.container {
+    padding: 20px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}

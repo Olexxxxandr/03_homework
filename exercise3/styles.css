@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+#container {
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.yellow {
+    background-color: yellow;
+}

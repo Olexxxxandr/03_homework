@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Exercise 3</title>
+</head>
+
+<body>
+    <div id="container">
+        <button onclick="makeBgColorBlue()" id="blue-btn">Click to make the page blue</button>
+        <button ondblclick="makeBgColorPink()" id="pink-btn">Double click to make the page pink</button>
+        <button onmousedown="makeBgColorBrown()" onmouseup="makeBgColorWhite()" id="brown-btn">
+            Click and hold to make the page brown
+        </button>
+        <a href="#" onmouseover="makeBgColorYellow()"
+                    onmouseleave="makeBgColorWhite()"
+                    id="yellow-link">Hover over to make page yellow</a>
+    </div>
+
+    <script src="./exercise3.js"></script>
+</body>
+
+</html>
